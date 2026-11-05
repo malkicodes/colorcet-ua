@@ -1,6 +1,8 @@
 DataCet ≁ "datacet.ua"
 ⍤ "different amount of ids and filenames" =∩⧻ DataCet.Ids DataCet.Filenames
 
+Ids ← DataCet.Ids
+
 # Track caller!
 GetFilename ↚ °□⍣(⊙◌˜⊡|˜⍤0⋅⋅$"could not find color map _")DataCet.Filenames⊗DataCet.Ids⊸□
 GetClass    ↚ ⊡-₁⊢⊚⊸(↧⊃(≥@0|≤@9))
